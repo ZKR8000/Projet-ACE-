@@ -1,0 +1,4 @@
+type Mutation{
+    saveCar( avion : CarRequest): Car
+    deleteCar( id: ID ): Boolean
+}
